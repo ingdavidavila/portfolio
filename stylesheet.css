@@ -3,14 +3,14 @@ header {
     align-content: center;
 }
 
-body{
-font-family: "Open Sans", sans-serif;
-margin: 0;
-padding: 0 var(--spacing-3);
-max-width: 900px;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0 var(--spacing-3);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
@@ -19,12 +19,12 @@ footer{
     text-align: center;
 }
 
-section{
+section {
     padding: var(--spacing-3) 0;
 }
 
 nav {
-    background-color: aqua;
+    
     height: auto;
     max-width: auto;
     align-self: auto;
@@ -65,9 +65,18 @@ a{
     flex-wrap: wrap;
 }
 
+.project-title{
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+.project-title h3{
+    display: inline;
+}
+
 #profile-pic{
     width: 300px;
-    border-radius: var(--border-radius);
+    border-radius: 15px;
     flex-shrink: 0;
 }
+
 
