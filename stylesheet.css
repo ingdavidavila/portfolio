@@ -24,7 +24,7 @@ section {
 }
 
 nav {
-    
+    background-color: lightblue;
     height: auto;
     max-width: auto;
     align-self: auto;
@@ -38,8 +38,6 @@ nav {
     align-items: center;
     margin: 0px;
     margin-left: auto;
-    
-
 }
 
 .navigation-item{
@@ -71,6 +69,7 @@ a{
 
 .project-title h3{
     display: inline;
+
 }
 
 #profile-pic{
@@ -79,4 +78,22 @@ a{
     flex-shrink: 0;
 }
 
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navigation-items {
+      display: none;
+    }
+}
