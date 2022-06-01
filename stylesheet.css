@@ -1,0 +1,73 @@
+header {
+    max-width: auto;
+    align-content: center;
+}
+
+body{
+font-family: "Open Sans", sans-serif;
+margin: 0;
+padding: 0 var(--spacing-3);
+max-width: 900px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+    padding: var(--spacing-2) 0;
+    text-align: center;
+}
+
+section{
+    padding: var(--spacing-3) 0;
+}
+
+nav {
+    background-color: aqua;
+    height: auto;
+    max-width: auto;
+    align-self: auto;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-items {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-left: auto;
+    
+
+}
+
+.navigation-item{
+    list-style-type: none;
+    margin: var(--spacing-1);
+    margin: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-me-container{
+    margin-right: var(--spacing-3);
+    display: flex;
+}
+
+.skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#profile-pic{
+    width: 300px;
+    border-radius: var(--border-radius);
+    flex-shrink: 0;
+}
+
